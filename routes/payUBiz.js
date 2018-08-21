@@ -17,8 +17,8 @@ router.post('/', function(req, res, next) {
     data.hash = generateHash(params)
     data.key = key
     data.txnid = txnid
-    data.surl = "https://powerful-sands-92812.herokuapp.com/payUBiz/success"
-    data.furl = "https://powerful-sands-92812.herokuapp.com/payUBiz/failure"
+    data.surl = "https://tranquil-dawn-83649.herokuapp.com/payUBiz/success"
+    data.furl = "https://tranquil-dawn-83649.herokuapp.com/payUBiz/failure"
     data.curl = "http://www.facebook.com"
     res.send(data)
 
